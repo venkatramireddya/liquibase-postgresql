@@ -1,0 +1,10 @@
+--liquibase formatted sql
+changeset stevedonie:create-test-table
+
+CREATE TABLE information.COMPANY(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL
+);
