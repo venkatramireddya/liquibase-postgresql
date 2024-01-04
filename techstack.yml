@@ -1,7 +1,8 @@
 repo_name: venkatramireddya/liquibase-postgresql
 report_id: 107be0964df1a7efad917562babaf1a2
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T11:39:21+00:00'
+timestamp: '2024-01-04T14:53:04+00:00'
 requested_by: venkatramireddya
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql/blob/main/src/main/resources/db/changelog/create.sql
   detection_source: src/main/resources/db/changelog/create.sql
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-03-28 01:10:36.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql/blob/main/build.gradle
   detection_source: build.gradle
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-03-28 01:10:36.000000000 Z
@@ -50,6 +54,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql/blob/main/build.gradle
   detection_source: build.gradle
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-03-28 01:10:36.000000000 Z
@@ -61,6 +66,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql/blob/main/build.gradle
   detection_source: build.gradle
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-03-28 01:10:36.000000000 Z
@@ -72,6 +78,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -82,7 +89,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: gradlew.bat
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql/blob/main/build.gradle
+  detection_source: build.gradle
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-03-28 01:10:36.000000000 Z
 - name: Apache Camel
@@ -94,6 +102,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/venkatramireddya/liquibase-postgresql/blob/main/src/main/resources/application.properties
   detection_source: src/main/resources/application.properties
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-03-28 01:10:36.000000000 Z
